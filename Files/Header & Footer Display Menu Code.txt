@@ -1,0 +1,40 @@
+
+// Header Code 
+
+ 
+ <?php 
+                        
+wp_nav_menu(array(
+
+'theme_location' => 'primary',
+'items_wrap'     => '<ul class="navbar-nav justify-content-end">
+<li  class="nav-item">
+<a class="nav-link"></a></li>%3$s</ul>',
+                              
+));
+                         
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+ // Footer Code 
+
+  <?php  wp_nav_menu(array(
+                                 
+                             
+  'theme_location' => 'Secondary',
+  'items_wrap'     => '<ul class="py-lg-5 py-md-3 pb-3 flex-wrap"><li  class="pb-md-0 pr-md-0 pb-2 pr-1"></li>%3$s</ul>', 
+
+    ));        
+                                   
+   ?> 
